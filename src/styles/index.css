@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my css */
+
+/* ----------------General css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.container{
+    padding: 0px 50px;
+}
+/*----------------- Header */
+
+
+header {
+    background-color: #d18b4a;
+    padding: 30px;
+    padding-left: 20px;
+}
+
+.app-logo {
+    margin-right: 120px;
+    margin-left: 50px;
+}
+
+.app-logo img {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%;
+}
+
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #ff2200;
+}
+
+/* Search.css */
+
+/* Style for the container div */
+.search {
+    margin: 20px;
+    text-align: center;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    width: 300px
+  }
+  
+.search h1 {
+    margin-top: 10px;
+    font-size: 20px;
+   
+  }
+  
+  .button {
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 18px;
+    background-color: #d18b4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* Restaurant Card */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 16px;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+    object-fit: cover;
+    margin-left: 70px;
+    margin-bottom: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 1.2em;
+  }
+  
+
+  .shimmer{
+    background-color: cadetblue;
+    padding: 100%;
+  }
+
+
+
+  /* shimmer */
+  
+  .shimmer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 40px;
+  }
+  
+  .shimmer-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 220px;
+    background-color: lightgray;
+  }
+  
+  .shimmer-text {
+    padding: 15px;
+  }
+  
+
+  
